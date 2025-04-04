@@ -1,0 +1,30 @@
+# Ignore conda environments
+env/
+*.env
+*.yml
+
+# Ignore models
+RFdiffusion/models/
+RFdiffusion/samples/
+rf_output/
+
+# Ignore checkpoints and cache
+*.pt
+*.pkl
+__pycache__/
+*.log
+*.tmp
+*.cache
+
+# Ignore data
+*.csv
+*.tsv
+*.txt
+*.npy
+*.npz
+*.h5
+
+# Jupyter and Python
+*.ipynb_checkpoints
+.DS_Store
+*.pyc
